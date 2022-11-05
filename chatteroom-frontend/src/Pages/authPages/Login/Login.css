@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+
+.loginwrapper{
+  width: 330px;
+  padding: 2rem 0 1rem 0;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+.loginwrapper h1{
+  font-size: 2rem;
+  color: #D89216;
+}
+.loginwrapper p{
+  margin-bottom: 1.7rem;
+}
+.loginwrapper form input{
+  width: 85%;
+  outline: none;
+
+  border: 1px solid #888;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.invite-friend-input{
+  width: 100%;
+  outline: none;
+  border: 1px solid #888;
+  padding: 10px 12px;
+  margin-top: 15px;
+  border-radius: 5px;
+  
+}
+
+.loginwrapper .recover{
+  text-align: right;
+  font-size: 0.8rem;
+  margin: 0.2rem 1.7rem 0 0;
+}
+.loginwrapper .recover a{
+  text-decoration: none;
+  color: #07001f;
+  
+}
+.loginwrapper .isvalid{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: #374045;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-not-valid{
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 85%;
+  background: #696d70;
+  color: #fff;
+
+}
+.btn-not-valid:hover{
+  background: #696d70;
+
+}
+.loginwrapper .isvalid:hover{
+  background: #20343e;
+}
+.loginwrapper .or{
+  font-size: 0.8rem;
+  margin-top: 1.5rem;
+}
+.loginwrapper .icons i{
+  color: #07001f;
+  padding: 00.8rem 1.5rem;
+  border-radius: 10px;
+  margin-left: .9rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #dfe9f5;
+}
+.loginwrapper .icons i:hover{
+  color: #fff !important;
+  background: #07001f;
+  transition: 1s;
+}
+.loginwrapper .icons i:first-child{
+  color: green;
+}
+.loginwrapper .icons i:last-child{
+  color: blue;
+}
+.loginwrapper .not-member{
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+}
+.loginwrapper .not-member a{
+  color: tomato;
+  text-decoration: none;
+}
+.loginwrapper a:hover{
+  text-decoration: underline;
+}
+
+.not-member img{
+ width: 2rem;
+}
